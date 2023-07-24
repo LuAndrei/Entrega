@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "Name": "Remera",
+      "price": 1000,
+      "imgUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/290/493/products/779426-mla40637813137_022020-f-70a7654d59b179f60215959834319474-1024-1024.jpg"
+    },
+    {
+      "id": 2,
+      "Name": "Taza",
+      "price": 800,
+      "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_910548-MLA48853916794_012022-O.webp"
+    },
+    {
+      "id": 3,
+      "Name": "Robot",
+      "price": 400,
+      "imgUrl": "https://eddy3dmdq.com.ar/wp-content/uploads/2023/04/figura-butter-robot-rick-and-morty-2.jpg"
+    },
+    {
+      "id": 4,
+      "Name": "Zapatillas",
+      "price": 550,
+      "imgUrl": "https://ropadeportivaparral.com.mx/wp-content/uploads/2021/05/341943ad-e419-465a-be9d-774785d09f3d.jpg"
+    },
+    {
+      "id": 5,
+      "Name": "Riñonera Rick And Morty",
+      "price": 1500,
+      "imgUrl": "https://vast.com.ar/wp-content/uploads/2022/04/RICK-B.jpg"
+    },
+    {
+      "id": 6,
+      "Name": "Bandeja Metal Chica",
+      "price": 2000,
+      "imgUrl": "https://tomaco.com.ar/wp-content/uploads/bandejarickmortyportal_Tomaco.jpg"
+    }
+  ]
+  

@@ -1,0 +1,35 @@
+.Banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://i.pinimg.com/originals/30/42/10/304210df8878017d5f9525291728f0eb.jpg");
+      cursor: pointer;
+      outline: none;
+        border-color: #f4ebed;
+      box-shadow: 0px 0px 30px #40d039;
+      list-style-type: none;
+      
+     
+  }
+  
+  .Banner-container {
+    text-align: center;
+    padding: 15% 0;
+  }
+  
+  .Banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+  }
+  
+  .Banner p {
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }

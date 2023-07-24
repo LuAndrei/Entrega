@@ -1,0 +1,29 @@
+.boton{
+    text-decoration: none;
+    outline: none;
+      border-color: #f4ebed;
+    box-shadow: 0px 0px 30px #49062a;
+    list-style-type: none;
+}
+
+.card{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+      border-color: #f4ebed;
+    box-shadow: 0px 0px 30px #40d039;
+    list-style-type: none;
+}
+
+.media{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+      border-color: #f4ebed;
+    box-shadow: 0px 0px 30px #40d039;
+    list-style-type: none;
+}
+.letra{
+    text-decoration: none;
+    list-style-type: none;
+}

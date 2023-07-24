@@ -1,0 +1,75 @@
+.Barra2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.Form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 800px;
+    margin: 20px;
+    
+    
+
+}
+
+.TextField{
+    width: 400px;
+}
+
+.boton-neon{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(3, 3, 3);
+  border: 0;
+  color: #165C5A;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: relative;
+  border-radius: 90px;
+  cursor: pointer;
+  transition: all ease-out 200ms;
+  animation: efecto-texto-luz 3s ease-in infinite normal both;
+   }
+
+   .boton-neon:hover {
+    color: #38EDE8;
+    text-shadow: 0 0 3px #38EDE8;
+    animation: none !important;
+  }
+  .boton-neon::after,
+  .boton-neon::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -3px;
+    top: -3px;
+    border: 3px solid #0a514e;
+    border-radius: 8px;
+    transition: all ease-out 200ms;
+    animation: efecto-luz 3s ease-in infinite normal both;
+  }
+  .boton-neon:hover::before,
+  .boton-neon:hover::after {
+    border-color: #38EDE8;
+    animation: none !important;
+  }
+  .boton-neon:hover::before {
+    filter: blur(4px);
+  }
+  .boton-neon:active {
+    color: #165C5A;
+    text-shadow: 0 0 0 #165C5A;
+  }
+  .boton-neon:active::before,
+  .boton-neon:active::after {
+    border-color: #165C5A;
+    animation: none !important;
+  }
+
